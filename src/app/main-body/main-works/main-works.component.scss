@@ -1,0 +1,73 @@
+.works-container{
+    h1{
+        font-weight: normal;
+
+    }
+    .heading{
+        font-weight: normal;
+        text-align: center;
+        color: #facc44;
+    }
+    .sub-heading{
+        font-weight: normal;
+        color: #66d9ef;
+    }
+    .works-row{
+        .title-head{
+            font-weight: normal;
+            color: #e64b36;
+            margin: 10px 0;
+        }
+        .work-body{
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            .img{
+                // flex-grow: 0;
+                width: 30%;
+            }
+            .img img{
+                width: 100%;
+                // height: 250px;
+                height: 250px;
+            }
+        .content{
+            // flex-grow: 2;
+            width: 70%;
+            padding-left: 50px;
+            h4{
+                font-weight: normal;
+                line-height: 2;
+                font-size: 18px;
+            }
+            .git{
+                .git-cls{
+                    text-decoration: none;
+                    color: #e7dfca;
+                }
+                .git-cls:hover{
+                    text-decoration: underline;
+                    color: #66d9ef;
+                }
+            }
+        }
+
+        }
+
+        @media only screen and (max-width: 56.25em){
+            .work-body{
+                display: flex;
+                flex-direction: column;
+                .img{
+                    width: 100%;
+                }
+                .img img{
+                    width: 100%;
+                    // height: 250px;
+                }
+
+            }
+        }
+    }
+
+}

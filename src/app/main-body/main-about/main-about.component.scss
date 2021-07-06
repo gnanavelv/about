@@ -1,0 +1,92 @@
+.port__header--hero {
+    width: 100%;
+    min-height: 100vh;
+    box-sizing: border-box;
+    // padding: 20px 60px;
+    h1, h2{
+        font-weight: normal;
+        line-height: 2;
+    }
+    .clr{
+        color: 	#66d9ef;
+    }
+    .btn{
+        width: 12rem;
+        margin-top: 30px;
+        margin-right: 15px;
+        font-size: 18px;
+        padding: 8px 30px;
+        background: #272822;
+        border: 1px solid #272822;
+        color: #fff;
+        // font-weight: 600;
+        text-transform: uppercase;
+    }
+    .btn:hover{
+        background: #053c4e;
+        border: 1px solid #053c4e;
+        color: #fff;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (max-width: 37.5em) {
+      .port__header--hero {
+        margin: 10rem auto; } }
+
+    .port__header--hero-container {
+      width: 100%;
+      height: 100%;
+      margin: 4rem auto;
+      box-sizing: border-box;
+      display: flex;
+      justify-content: space-between; }
+@media only screen and (max-width: 56.25em) {
+        .port__header--hero-container {
+          flex-direction: column; } }
+      @media only screen and (max-width: 37.5em) {
+        .port__header--hero-container {
+          margin: 5rem auto; } }
+    .port__header--hero-intro {
+      width: 60%;
+      height: 100%;
+      margin: 10rem auto 4rem auto;
+      box-sizing: border-box;
+      font-size: 18px;
+    //   font-weight: 300;
+     }
+      @media only screen and (max-width: 56.25em) {
+        .port__header--hero-intro {
+          width: 100%;
+          margin: 2rem auto;
+          text-align: center;
+          order: 2; }
+        .btn{
+            text-align: center;
+            display: inline-table;
+        }
+        }
+      @media only screen and (max-width: 37.5em) {
+        .port__header--hero-intro {
+          margin: 5rem auto; } }
+
+    .port__header--hero-desc {
+      width: 40%;
+      height: 100%;
+      margin: auto;
+      box-sizing: border-box; }
+
+      @media only screen and (max-width: 56.25em) {
+        .port__header--hero-desc {
+          width: 50%;
+          margin: auto;
+          order: 1; } }
+      @media only screen and (max-width: 37.5em) {
+        .port__header--hero-desc {
+          width: 80%;
+          margin: auto;
+          order: 1; } }
+    .port__header--hero-svg {
+      width: 100%;
+      height: 100%;
+      box-sizing: border-box; }
