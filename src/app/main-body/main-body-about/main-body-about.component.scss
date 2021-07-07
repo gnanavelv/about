@@ -9,17 +9,19 @@
     }
     .heading--sub{
         color: #66d9ef;
+        margin-bottom: 20px;
     }
     .para{
         font-weight: normal;
         font-size: 18px;
-        line-height: 1.5;
+        line-height: 1.8;
     }
     .tool{
         margin: 30px 0;
         h2{
             font-weight: normal;
             color: #e64b36;
+            margin: 20px 0;
         }
         .tools--sub{
             .tools-para{
@@ -27,6 +29,7 @@
                 width: 100%;
                 justify-content: center;
                 font-size: 17px;
+                line-height: 2;
                 .title{
                     width: 25%;
                     color:#66d9ef;
@@ -46,7 +49,7 @@
                     }
                     .content{
                         width: 100%;
-                        padding-left: 0;
+                        padding-left: 0px;
                     }
                 }
             }

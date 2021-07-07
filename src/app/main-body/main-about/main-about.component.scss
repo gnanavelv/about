@@ -1,6 +1,6 @@
 .port__header--hero {
     width: 100%;
-    min-height: 100vh;
+    min-height: 80vh;
     box-sizing: border-box;
     // padding: 20px 60px;
     h1, h2{
@@ -21,6 +21,10 @@
         color: #fff;
         // font-weight: 600;
         text-transform: uppercase;
+        text-decoration: none;
+    }
+    .btn-wrap{
+        margin: 20px 0;
     }
     .btn:hover{
         background: #053c4e;
@@ -31,8 +35,13 @@
 }
 
 @media only screen and (max-width: 37.5em) {
+    h1{
+        font-size: 30px;
+    } h2{
+        font-size: 20px;
+    }
       .port__header--hero {
-        margin: 10rem auto; } }
+        margin: 10rem auto 0 auto; } }
 
     .port__header--hero-container {
       width: 100%;
